@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TableWindow</class>
+ <widget class="QMainWindow" name="TableWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1071</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Раздача</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>220</y>
+        <width>251</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>data/card.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>90</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Карта</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>170</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ок</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>170</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>170</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Генерация события</string>
+      </property>
+     </widget>
+     <widget class="QExLabel" name="eventLabel_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>220</y>
+        <width>251</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="text" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>90</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Роль</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>90</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Герой</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>970</x>
+        <y>620</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Очистить</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>200</y>
+        <width>201</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Список игроков</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>220</y>
+        <width>221</width>
+        <height>131</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>221</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>1-4</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1071</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>data/table1.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QExLabel" name="eventLabel_1" native="true">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>190</y>
+        <width>201</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 2</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_11" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_12" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_13" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_14" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_15" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>0</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 3</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_16" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_17" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_18" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_19" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_20" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>380</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 4</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_21" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_22" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_23" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_24" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_25" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>380</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 1</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_1" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_1" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_1" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_46" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_47" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_48" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_49" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_50" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>5-8</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1071</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>data/table2.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QExLabel" name="eventLabel_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>190</y>
+        <width>201</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="text" stdset="0">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>0</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 5</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_26" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_27" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_28" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_29" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_30" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>380</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 6</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_31" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_32" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_33" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_34" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_35" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>380</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 7</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_36" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_37" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_38" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_39" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_40" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>411</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="nameLabel_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>52</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Игрок 8</string>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="PersonLabel_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="LivesLabel_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>20</y>
+         <width>91</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="HeroLabel_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>20</y>
+         <width>141</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_41" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_42" native="true">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_43" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_44" native="true">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QExLabel" name="card1_45" native="true">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>71</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text" stdset="0">
+        <string/>
+       </property>
+       <property name="pixmap" stdset="0">
+        <pixmap>data/card.png</pixmap>
+       </property>
+       <property name="scaledContents" stdset="0">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>720</y>
+        <width>221</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string></string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QExLabel</class>
+   <extends>QWidget</extends>
+   <header>qexlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
